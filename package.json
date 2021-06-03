@@ -1,5 +1,5 @@
 {
-  "name": "rick-and-morty",
+  "name": "create-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,27 +18,15 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
